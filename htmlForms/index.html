@@ -12,22 +12,22 @@
     <form action="#"></form>
      <!-- firstname,last name, email, password field -->
         <fieldset>
-            <label>Enter Your First Name: <input type="text"></label>
-            <label>Enter your Last Name: <input type="text"></label>
-            <label>Enter Your email:    <input type="email"></label>
-            <label>Enter Your password <input type="password" pattern="[a-z0-5]{8,}" required></label>
+            <label>Enter Your First Name: <input type="text" name="First Name"></label>
+            <label>Enter your Last Name: <input type="text" name="Last Name"></label>
+            <label>Enter Your email:    <input type="email" name="Your email"></label>
+            <label>Enter Your password <input type="password" pattern="[a-z0-5]{8,}" name="password" required></label>
         </fieldset>
         <fieldset>
             <label><input type="radio" name="account-type"/>Personal Account</label>
             <label><input type="radio" name="account-type"/>Business Account</label>
-            <label><input type="checkbox" required />I accept <a href="#">terms and conditions</a></label>
+            <label><input type="checkbox" name="termsConditions" required />I accept <a href="#">terms and conditions</a></label>
         </fieldset>
         <fieldset>
-            <label>Upload Profile Picture <input type="file"></label>
-            <label>Input Your Age (years): <input type="number" min="13" max="120"></label>
+            <label>Upload Profile Picture <input type="file" name="fileUpload"></label>
+            <label>Input Your Age (years): <input type="number" min="13" max="120" name="Age"></label>
             <label>
                 How did you hear from us?
-            <select>
+            <select name="referrer">
                 <option value="">(Select One)</option>
                 <option value="1">News</option>
                 <option value="2">Blog</option>
@@ -37,7 +37,7 @@
             </label>
             <label>
                 Provide a bio
-                <textarea name="" id="" cols="30" rows="3"placeholder="I like coding on a rainy day..."></textarea>
+                <textarea name="bio" id="" cols="30" rows="3"placeholder="I like coding on a rainy day..."></textarea>
             </label>
         </fieldset>
         
