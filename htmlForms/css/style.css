@@ -42,5 +42,6 @@ input,textarea, select{
 .inline{
     background-color: orange;
     width: unset;
-    margin: 0 0.5em 0 0;
+    margin: 0 0.5em 0;
+    vertical-align: middle;
 }
