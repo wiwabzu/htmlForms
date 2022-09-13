@@ -9,7 +9,7 @@ body{
     font-size: 16px;
 }
 h1,p{
-    margin: 1em;
+    margin: 1em auto;
     text-align: center;
 
 }
@@ -20,4 +20,10 @@ label{
 }
 textarea{
     color: green;
+}
+form{
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
 }
