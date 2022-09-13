@@ -21,7 +21,7 @@ label{
 textarea{
     color: green;
 }
-Form{
+form{
     margin: 0 auto;
     max-width: 500px;
     min-width: 300px;
@@ -31,4 +31,7 @@ fieldset{
     border: none;
     padding: 2rem 0;
     border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type{
+    border-bottom: none;
 }
