@@ -52,3 +52,10 @@ input, textarea{
     color: darkgreen;
     
 }
+textarea::placeholder{
+    color: green;
+}
+input[type="submit"]{
+    display: block;
+    width: 60%;
+}
